@@ -1,0 +1,136 @@
+h1{margin: 0%;padding: 0%;}
+h2{margin: 0%;padding: 0%;}
+h3{margin: 0%;padding: 0%;}
+h4{margin: 0%;padding: 0%;}
+
+.red{
+    background-color: red;
+
+}
+
+.blue{
+    background-color: blue;
+
+}
+
+.yellow{
+    background-color: yellow;
+
+}
+
+.green{
+    background-color: green;
+
+}
+
+.container-box-timer {
+    width: 90vw;
+    height: 70vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 7%;
+    
+}
+
+.container-card-timer {
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+    border-radius: 50px;
+
+}
+
+.border-timer-l{
+    border-radius: 30px 0px 0px 30px;   
+}
+
+.border-timer-r{
+    border-radius: 0px 30px 30px 0px;   
+}
+
+/* TIMER */
+
+.time{
+    /* font-size: 7vw; */
+    font-size: 140px;
+}
+
+.title-timer{
+    /* font-size: 2vw; */
+    font-size: 40px;
+}
+
+.btn-item{
+    /* font-size: 1.5vw; */
+    font-size: 30px;
+    color: greenyellow;
+}
+
+
+/* .border-timer-t{
+    border-radius: 30px 30px 0px 0px ;   
+}
+
+.border-timer-b{
+    border-radius: 0px 0px 30px 30px;   
+} */
+
+.h-p10{
+    height: 10%;
+}
+
+.h-p20{
+    height: 20%;
+}
+
+.h-p30{
+    height: 30%;
+}
+
+.h-p40{
+    height: 40%;
+}
+
+.h-p50{
+    height: 50%;
+}
+
+.h-p100{
+    height: 100%;
+}
+
+
+@media (max-width: 766px) {
+    .green{
+        background-color: rgb(214, 226, 34);
+
+    }
+
+    .border-timer-l{
+        border-radius: 30px 30px 0px 0px ;   
+    }
+    
+    .border-timer-r{
+        border-radius: 0px 0px 30px 30px;   
+    }
+
+    .time{
+        /* font-size: 7vw; */
+        font-size: 100px;
+    }
+
+    .btn-item{
+        /* font-size: 1.5vw; */
+        font-size: 25px;
+    }
+}
+
+footer{
+    float:right;
+    position:absolute;
+    bottom:0;
+    right:0;
+    clear:right;
+    font-size: 15px;
+    color: gray;
+}
